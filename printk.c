@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stddef.h>
 #include <stdarg.h>
 
 typedef void (*putc_func_t)(char c);
