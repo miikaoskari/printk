@@ -1,7 +1,8 @@
 #include <stddef.h>
 #include <stdarg.h>
 
-typedef void (*putc_func_t)(char c);
+#include "printk.h"
+
 static putc_func_t pputc = NULL;
 
 void set_putc(putc_func_t func)
